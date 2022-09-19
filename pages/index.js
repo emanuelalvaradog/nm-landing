@@ -1,26 +1,30 @@
+import { useState } from "react";
+import { RegisterForm, VideosContainer, MainHeader } from "../components";
+
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import nmLogo from "../public/vercel.svg";
 
 export default function Home() {
+  const [isRegistered, setIsRegisteres] = useState(false);
+
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <link rel="icon" href="/nmIcoLogo.ico" />
+        <meta
+          property="og:image"
+          content="https://www.navidadenlasmontanas.com/nmShareImg.png"
+        />
+        <title>Navidad en las montañas - 2022</title>
+        <meta property="og:title" content="Navidad en las montañas - 2022" />
         <meta name="description" content="Navidad en las montañas 2022" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta
+          property="og:description"
+          content="El evento alpino más grande de México"
+        />
       </Head>
 
-      <header className={styles.header}>
-        <Image
-          className={styles.headerImage}
-          src={nmLogo}
-          alt="NM Logo"
-          layout="intrinsic"
-          width="120%"
-        />
-      </header>
+      <MainHeader />
 
       <main className={styles.main}>
         <section className={styles.firstSection}>
@@ -28,34 +32,9 @@ export default function Home() {
             <h1>Próximamente</h1>
             <p>Invierno 2022</p>
           </section>
-          <section className={styles.videoSection}>
-            <div className={styles.divider}>
-              <span className={styles.dividerText}>Conócenos</span>
-            </div>
-            <div className={styles.videos}>
-              <div className={styles.video}> </div>
-              <div className={styles.video}> </div>
-              <div className={styles.video}> </div>
-              <div className={styles.video}> </div>
-            </div>
-          </section>
+          <VideosContainer />
         </section>
-        <section className={styles.register}>
-          <h3>Regístrate</h3>
-          <p>
-            ¿Quieres enterarte de las últimas noticias de Navidad en las
-            Montañas 2022?
-          </p>
-          <p>¡Escríbenos!</p>
-          <p>Nos alegrará mucho conocerte.</p>
-          <form className={styles.form}>
-            <input type="text" placeholder="Nombre" />
-            <input type="email" placeholder="Email" />
-            <input type="tel" placeholder="Teléfono" />
-            <textarea placeholder="Déjanos un mensaje" />
-            <button>Registrar</button>
-          </form>
-        </section>
+        <RegisterForm />
       </main>
     </div>
   );
