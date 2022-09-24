@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./RegisterForm.module.css";
 
-const API_ENDPOINT = "https://sheetdb.io/api/v1/21irileceq8q1";
+const API_ENDPOINT = "https://sheetdb.io/api/v1/pz0e6de40nz1l";
 
 export function RegisterForm() {
   const [isLoading, setIsLoading] = React.useState(false);
