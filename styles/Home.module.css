@@ -31,7 +31,7 @@
   justify-content: center;
   scroll-snap-align: start;
   width: 100%;
-  height: calc(100vh - 7rem);
+  height: calc(100vh + 5rem);
 }
 
 .firstSection h1 {
@@ -49,14 +49,21 @@
   letter-spacing: 0.06rem;
 }
 
+.firstSection a {
+  text-decoration: none;
+  color: #d20f38;
+}
+
 .firstSection button {
   margin-top: 4rem;
   padding: 1.2rem 1.4rem;
+  background-color: white;
   border: none;
   border-radius: 0.6rem;
   font-size: 1.5rem;
   font-weight: 700;
   color: #d20f38;
+  cursor: pointer;
 }
 
 @media (min-width: 538px) {
@@ -74,23 +81,41 @@
 @media (min-width: 723px) {
   .firstSection {
     padding: 9rem 0 11rem 0;
+    height: calc(100vh + 9rem);
+    gap: 0.8rem;
   }
 
   .firstSection p {
-    letter-spacing: 1rem;
+    width: 90%;
+  }
+
+  .firstSection button {
+    padding: 1.4rem 2rem;
+    font-size: 1.8rem;
   }
 }
 
-@media (min-width: 967px) {
+@media (min-width: 1024px) {
   .firstSection {
-    padding: 9rem 0 11rem 0;
+    gap: 2rem;
   }
 
   .firstSection h1 {
     font-size: 7rem;
   }
 
+  .firstSection h2 {
+    font-size: 3rem;
+  }
+
   .firstSection p {
-    letter-spacing: 1.6rem;
+    width: 75%;
+    font-size: 2.1rem;
+    /* letter-spacing: 6rem; */
+  }
+
+  .firstSection button {
+    padding: 1.8rem 2.8rem;
+    font-size: 2.4rem;
   }
 }

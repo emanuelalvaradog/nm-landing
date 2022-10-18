@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 4rem;
 }
 
 .activitySectionTitle {
@@ -29,11 +28,12 @@
   grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
 }
 
-@media (min-width: 538px) {
-  .videoSection {
-    width: 90%;
+@media (min-width: 1024px) {
+  .activitySectionTitle h1 {
+    font-size: 4.4rem;
   }
-  .dividerText {
-    font-size: 2rem;
+
+  .activities {
+    grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
   }
 }

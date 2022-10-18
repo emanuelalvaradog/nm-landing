@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 6rem;
+  margin-top: 10rem;
 }
 
 .arrival h1 {
@@ -36,15 +36,35 @@
   width: 100%;
 }
 
-.contactCard h2 {
-  font-size: 2.4rem;
-  margin-bottom: 1.2rem;
+.contactCard img {
+  width: 70%;
 }
 
 .contactCard p {
-  font-size: 1.6rem;
+  margin-top: 1rem;
+  font-size: 1.4rem;
 }
 
-.contactCard img {
-  width: 70%;
+@media (min-width: 768px) {
+  .contactCard {
+    width: 60%;
+  }
+
+  .contactCard img {
+    width: 60%;
+  }
+
+  .arrival iframe {
+    height: 40rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .arrival h1 {
+    font-size: 4rem;
+  }
+
+  .contactCard p {
+    font-size: 2rem;
+  }
 }

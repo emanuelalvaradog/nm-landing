@@ -5,7 +5,7 @@ import styles from "./ActivitiesContainer.module.css";
 
 export function ActivitiesContainer() {
   return (
-    <section className={styles.activitySection}>
+    <section id="actividades" className={styles.activitySection}>
       <div className={styles.activitySectionTitle}>
         <h1>Actividades</h1>
       </div>

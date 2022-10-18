@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect } from "react";
 import {
   MainHeader,
   ActivitiesContainer,
@@ -37,7 +37,15 @@ export default function Home() {
             podrás disfrutar de un hermoso bosque iluminado con más de 100 mil
             luces, una rica comida y un gran ambiente navideño
           </p>
-          <button>Comprar boletos</button>
+          <button>
+            <a
+              href="https://www.ticketmaster.com.mx/navidad-en-las-montanas-boletos/artist/1517921"
+              target="__blank"
+              rel="noopener"
+            >
+              Comprar boletos
+            </a>
+          </button>
         </section>
         <ActivitiesContainer />
         <ArrivalContainer />
