@@ -13,6 +13,21 @@ export function ArrivalContainer() {
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       />
+      <div className={styles.contact}>
+        <div className={styles.contactCard}>
+          <h2>Taquilla Oficial</h2>
+          <p>Av. Clavería 12. Azcapotzalco, CDMX</p>
+        </div>
+        <div className={styles.contactCard}>
+          <a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX">
+            {" "}
+            <img
+              alt="Chat on WhatsApp"
+              src="/WhatsAppButtonGreenMedium.png"
+            />{" "}
+          </a>
+        </div>
+      </div>
     </section>
   );
 }
