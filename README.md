@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [NM Landing](https://www.navidadenlasmontanas.com/)
+NM Landing is a responsive landing page for a Christmas event in Mexico. The goal was to show the minimum required data to explain what the event is about and create expectation for the upcoming event dates.
 
-## Getting Started
+## [Live Demo](https://www.navidadenlasmontanas.com/)
+![mobile homepage](https://lh3.googleusercontent.com/INOFcdP0L9Sf-99zK7nwFtd6uNWE2-CEMfeO7PFvdtKwcyNt4ZK-ZMfYq43yp8oAtLDpBy-Z15X6BdmlD5t2d3_MM81EBVRUv2Ij2QK-NlWy065wuyihAYnF0ia7povY2FZNH8j7l3Fj42n6Vsp3lJT_6_Ee3PwmE5wYSQHdwu7q3VVoSa76RYEtQR0vdOvet23YvTIptbLNs3gH_dOBNvVGqRrANweOCr0Ql6nyJ_JF4gVJHlx7edBQ8TCbLByqk_CAUENGn_BeUYpnUOLV5jHUt20KKm6YtIvdhyXRRNvJsa-5qvi_Q2PofAYvNFBYFavwFX_LGhnGrYZcROzYea1r1PGfVgvkow2TdA7fM-g42l9S8mjV7QmPLp-Zo3-mg8wLNVXa82R-cIarv8OKcfQHkvpvBPp4MMv42g2ikKcSNLqqSKJ91dFOK6tKcrKCspbI01Ju4E2YEB0oe8DXlCLXXJ9Sq3BTG5hSMhMe4ybcU9hrqc85AnpsulOFOcY5AbbwUgbR5XP_yVAoe8F_4e9Pr0f0DM2jO3rYa3Gi4OWABUyBN5Wp_aFPKR1jesMc0bxAPIUREt0wgikLZzHjWOn1LS8-UXLZ21X8bx1QbpeAuBajgul67je5lnmJteCv0bV10rX6BLgXyw81ahNVwWWwjG-3mrzVLCTBaN1cBYY-VVhbnD-W0fUDGM2hmjbC7BbX9hh1gUzHyY3RZ_QmzwA0bb45N4j-7LoRmtHuCrJECgOnNM3f5WMAv1JFqwnEc6XwQhxKixRwlZjybKtMmaRjAl175nATUvAZM8ivAbnJS4r7ICUUSaI0zwRrMgsAEB-ZCJ15f5J9oTWfFPf50_NARl9vvCasJCzvDuH9FxY=w198-h699-no?authuser=0)
+![mobile form page](https://lh3.googleusercontent.com/SvWALMvp_-sxm2Xxm91E_T3T1YyGZdYhCdSq0axxIzybfL_34WQcIpn3GDDEvoFBkhvA_k7QZ55tt3xiILn1jiFbafGXG3wFQnKV-Jm9T_RprqRepqxnMPppo8syteisVGsMEOUFZ6NHfyJcNn9YhR-BmYK_1N4_CyItN0V3CPyHIHRs9ea3PdixYIrF-j4UxxnEk_ew-VCMi4Ne8_oMoXtc2x-k58bXcoye0z7JF800YHssC0VTDBMWOjCHyFVbUeRhLGhk1YLJ6q7hHAgfuAS2LyZhqoDFMZ8PMRN2SqM2Duft22kfPQF9F0TKsw6vVnh0dVK4lUBfIcwrLu5cqT4cN6HIYLH4W9dpqGAnnQwdtVkHky9KvMsdOZ5HUXTBd5tLCPcpd-RfH4wQT625VCKjx5WYtgeSr5P55YKZ-IkUd85d2OX3M9lifbxkG93KxA_4hheMb557BrLSn1_RAO9vB7vB8_K_KLubHDoJqNp9nDeL882_aOMZ2_dGs-DMExUbAT6K8dzZz6AbTwf-UpXaZpEJ6LMMDx3ObD8uw_MuVDv3kO1ZzPeDgyuVXzKhAyrwODspst3-lywhKsh6WoBwjiJckTvUus4CHgB7H5YnIw0SJ57h3Hc-ZnfbH7Veh1Xke8TZU0nqdTGuqwZQE-NwVEKxClV7gBUZawRo_jt1HaYpHKYJhtRN6sJr6WBq8UQ60Zcjyf2TewuL-AHbUBCIyy1Ptso4tkfJXm4gjnZZHzVtaP0UM8T4ws8cPsKrIGUo8K9ArYfAhBuGDX0x4_GKvmE8D-pH-s49OtHunA1YxFvPP-QgY-ZPojaOGuya-rk1TK-JZlEeNOhnj6QpgYE3gh_h8QQ-OO_IIop2bTg=w740-h699-no?authuser=0)
 
-First, run the development server:
+## Process
+### Built with:
+- NextJS
+- CSS modules
+- React
+### Other tools:
+- Figma
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Authors:
+Made with 💜 by [emanuelalvaradog](https://github.com/emanuelalvaradog)
