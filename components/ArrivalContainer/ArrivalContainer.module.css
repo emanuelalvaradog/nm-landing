@@ -1,0 +1,15 @@
+.arrival {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrival iframe {
+  width: 90%;
+  height: 30rem;
+  border: none;
+  border-radius: 0.6rem;
+}

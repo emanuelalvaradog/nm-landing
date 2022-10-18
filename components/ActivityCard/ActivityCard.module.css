@@ -7,11 +7,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 18rem;
+  height: 20rem;
   justify-self: center;
 }
 
-.card::after {
+.activity::after {
   content: "";
   position: absolute;
   top: 0;
@@ -19,13 +19,25 @@
   width: 100%;
   height: 100%;
   border-radius: 0.6rem;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.65);
 }
 
-.cardText {
+.activityText {
   z-index: 100;
-  width: 90%;
+  width: 100%;
   height: 100%;
-  padding-left: 1rem;
-  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 0 1rem;
+}
+
+.activityText h1 {
+}
+
+.activityText p {
+  font-size: 1.5rem;
+  font-weight: 300;
 }

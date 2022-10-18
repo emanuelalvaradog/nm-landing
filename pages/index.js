@@ -1,12 +1,14 @@
 import { useState } from "react";
-import { RegisterForm, VideosContainer, MainHeader } from "../components";
+import {
+  MainHeader,
+  ActivitiesContainer,
+  ArrivalContainer,
+} from "../components";
 
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  const [isRegistered, setIsRegisteres] = useState(false);
-
   return (
     <div className={styles.container}>
       <Head>
@@ -37,6 +39,8 @@ export default function Home() {
           </p>
           <button>Comprar boletos</button>
         </section>
+        <ActivitiesContainer />
+        <ArrivalContainer />
       </main>
     </div>
   );

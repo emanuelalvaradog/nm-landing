@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./YoutubeVideo.module.css";
+import styles from "./ActivityCard.module.css";
 
 export function ActivityCard({ activity }) {
   return (
