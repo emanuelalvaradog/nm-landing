@@ -1,16 +1,16 @@
 import React from "react";
 import styles from "./YoutubeVideo.module.css";
 
-export function YoutubeCard({ videoId }) {
+export function ActivityCard({ activity }) {
   return (
-    <div className={styles.video}>
-      <iframe
-        src={`https://www.youtube.com/embed/${videoId}`}
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      ></iframe>
+    <div
+      className={styles.activity}
+      style={{ backgroundImage: `url(${activity.image})` }}
+    >
+      <div className={styles.activityText}>
+        <h1>{activity.title}</h1>
+        <p>{activity.description}</p>
+      </div>
     </div>
   );
 }

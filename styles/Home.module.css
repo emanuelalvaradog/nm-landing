@@ -5,7 +5,7 @@
 
 .header {
   height: fit-content;
-  min-width: 32rem;
+  min-width: 100;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +14,8 @@
 
 .main {
   min-width: 32rem;
+  height: calc(100vh - 7rem);
+  padding: 0 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,16 +33,29 @@
   width: 100%;
 }
 
-.title {
-  padding: 6rem 0 8rem 0;
-}
-
-.title h1 {
+.firstSection h1 {
   font-size: 4rem;
 }
-.title p {
-  font-size: 1.6rem;
-  letter-spacing: 0.7rem;
+
+.firstSection h2 {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.firstSection p {
+  font-size: 1.5rem;
+  letter-spacing: 0.06rem;
+}
+
+.firstSection button {
+  margin-top: 4rem;
+  padding: 1.2rem 1.4rem;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #d20f38;
 }
 
 .aviso {
@@ -64,36 +79,37 @@
 }
 
 @media (min-width: 538px) {
-  .title {
+  .firstSection {
     padding: 8rem 0 10rem 0;
   }
-  .title h1 {
+  .firstSection h1 {
     font-size: 5rem;
   }
-  .title p {
+  .firstSection p {
     font-size: 1.8rem;
   }
 }
 
 @media (min-width: 723px) {
-  .title {
+  .firstSection {
     padding: 9rem 0 11rem 0;
   }
 
-  .title p {
+  .firstSection p {
     letter-spacing: 1rem;
   }
 }
 
 @media (min-width: 967px) {
-  .title {
+  .firstSection {
     padding: 9rem 0 11rem 0;
   }
 
-  .title h1 {
+  .firstSection h1 {
     font-size: 7rem;
   }
-  .title p {
+
+  .firstSection p {
     letter-spacing: 1.6rem;
   }
 }

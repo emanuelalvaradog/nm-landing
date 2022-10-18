@@ -28,13 +28,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <section className={styles.firstSection}>
-          <section className={styles.title}>
-            <h1>Próximamente</h1>
-            <p>Invierno 2022</p>
-          </section>
-          <VideosContainer />
+          <h1>¡Ven y vive Navidad en las Montañas!</h1>
+          <h2>Del 14 al 21 de diciembre</h2>
+          <p>
+            Conoce nuestro evento alpino, único en su tipo en México, donde
+            podrás disfrutar de un hermoso bosque iluminado con más de 100 mil
+            luces, una rica comida y un gran ambiente navideño
+          </p>
+          <button>Comprar boletos</button>
         </section>
-        <RegisterForm />
       </main>
     </div>
   );

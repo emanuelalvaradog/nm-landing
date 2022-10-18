@@ -1,12 +1,31 @@
-.video {
+.activity {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 0.6rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
-  height: 100%;
-  background-color: #d20f38;
-  border-radius: 0.4rem;
+  height: 18rem;
+  justify-self: center;
 }
 
-.video iframe {
+.card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 0.4rem;
+  border-radius: 0.6rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cardText {
+  z-index: 100;
+  width: 90%;
+  height: 100%;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
