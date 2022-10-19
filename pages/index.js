@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { NextSeo } from "next-seo";
 import {
   MainHeader,
   ActivitiesContainer,
@@ -11,19 +11,22 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className={styles.container}>
+      <NextSeo
+        title="Navidad en las montañas"
+        description="Navidad en las montañas es el evento alpino más grande de México donde podrás disfrutar, en compañía de tu familia y amigos, de un hermoso bosque iluminado con más de 100mil luces, una rica comida y un gran ambiente navideño."
+        canonical="https:///www.navidadenlasmontanas.com"
+        openGraph={{
+          url: "https://www.navidadenlasmontanas.com",
+          title: "Navidad en las montañas",
+          description:
+            "Navidad en las montañas es el evento alpino más grande de México done podrás disfrutar, en compañía de tu familia y amigos, de un hermoso bosque ilumminado con más de 1000mil luces, una rica comida y un gran ambiene navideño.",
+          images: [{ url: "/nmShareImg.png", alt: "Navidad en las montañas" }],
+        }}
+      />
+
       <Head>
         <link rel="icon" href="/nmIcoLogo.ico" />
-        <meta
-          property="og:image"
-          content="https://www.navidadenlasmontanas.com/nmShareImg.png"
-        />
         <title>Navidad en las montañas - 2022</title>
-        <meta property="og:title" content="Navidad en las montañas - 2022" />
-        <meta name="description" content="Navidad en las montañas 2022" />
-        <meta
-          property="og:description"
-          content="El evento alpino más grande de México"
-        />
       </Head>
 
       <MainHeader />

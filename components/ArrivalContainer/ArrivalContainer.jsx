@@ -15,7 +15,10 @@ export function ArrivalContainer() {
       />
       <div className={styles.contact}>
         <div className={styles.contactCard}>
-          <a aria-label="Chat on WhatsApp" href="https://wa.me/1XXXXXXXXXX">
+          <a
+            aria-label="Chat on WhatsApp"
+            href="https://wa.me/525611800277?text=¡Quiero%20ir%20a%20Navidad%20en%20las%20montañas%202022!"
+          >
             {" "}
             <img
               alt="Chat on WhatsApp"
