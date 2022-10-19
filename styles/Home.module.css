@@ -31,7 +31,7 @@
   justify-content: center;
   scroll-snap-align: start;
   width: 100%;
-  height: calc(100vh - 8rem);
+  height: calc(100vh - 10rem);
 }
 
 .firstSection h1 {
