@@ -19,7 +19,7 @@ export default function Home() {
           url: "https://www.navidadenlasmontanas.com",
           title: "Navidad en las montañas",
           description:
-            "Navidad en las montañas es el evento alpino más grande de México done podrás disfrutar, en compañía de tu familia y amigos, de un hermoso bosque ilumminado con más de 1000mil luces, una rica comida y un gran ambiene navideño.",
+            "Navidad en las montañas es el evento alpino más grande de México donde podrás disfrutar, en compañía de tu familia y amigos, de un hermoso bosque ilumminado con más de 1000mil luces, una rica comida y un gran ambiene navideño.",
           images: [{ url: "/nmShareImg.png", alt: "Navidad en las montañas" }],
         }}
       />
