@@ -34,7 +34,7 @@ export default function Home() {
       <main className={styles.main}>
         <section className={styles.firstSection}>
           <h1>¡Ven y vive Navidad en las Montañas!</h1>
-          <h2>Del 15 al 21 de diciembre</h2>
+          <h2>Del 15 al 20 de diciembre</h2>
           <p>
             Conoce nuestro evento alpino, único en su tipo en México, donde
             podrás disfrutar de un hermoso bosque iluminado con más de 100 mil

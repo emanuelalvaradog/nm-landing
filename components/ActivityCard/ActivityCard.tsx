@@ -5,7 +5,7 @@ export function ActivityCard({ activity }) {
   return (
     <div
       className={styles.activity}
-      // style={{ backgroundImage: `url(${activity.image})` }}
+      style={{ backgroundImage: `url(${activity.image})` }}
     >
       <div className={styles.activityText}>
         <h1>{activity.title}</h1>
